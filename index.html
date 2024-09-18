@@ -1,0 +1,18 @@
+Vamos criar um projeto simples de animação de círculos que mudam de cor. Aqui está o código:
+
+```javascript
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  let numCircles = 10;
+  for (let i = 0; i < numCircles; i++) {
+    fill(random(255), random(255), random(255));
+    ellipse(random(width), random(height), 50, 50);
+  }
+}
+```
+
+Esse código gera círculos coloridos em posições aleatórias. Delve mais fundo se quiser adicionar interatividade!
